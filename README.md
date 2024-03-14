@@ -72,9 +72,11 @@
 ## Introduction - Framework
 
 <div align="center">
-  <a href="https://github.com/Happy591/Base_Serveur_RedEM_FR">
-    <img src="https://w0.peakpx.com/wallpaper/20/49/HD-wallpaper-red-dead-redemption-2-2021-red-dead-redemption-2-games-2021-games.jpg" alt="Logo" width="1000" height="400">
-  </a>
+    <img src="https://avatars.githubusercontent.com/u/92413636?s=200&v=4" alt="Logo" width="70" height="70">
+    <img src="https://avatars.githubusercontent.com/u/115509535?s=200&v=4" alt="Logo" width="70" height="70">
+    <img src="https://bcc-scripts.com/logo_full.png" alt="Logo" width="70" height="70">
+    <img src="https://avatars.githubusercontent.com/u/64416274?s=200&v=4" alt="Logo" width="70" height="70">
+    <img src="https://avatars.githubusercontent.com/u/58793477?s=200&v=4" alt="Logo" width="70" height="70">
 </div>
 
 Bienvenue sur cette documentation Git qui vous aidera à créer plus facilement la base de votre serveur RedM !
@@ -101,9 +103,21 @@ Il ne vous reste plus qu'à faire le choix du framework que vous souhaitez utili
 
 ## La Base - Le Développement
 
+<div align="center">
+    <img src="https://woz-u.com/wp-content/uploads/2022/06/Evolution-of-Coding-scaled.jpg" alt="Logo" width="1000" height="500">
+</div>
+
 Cette partie est consacrée aux bases pour commencer ou modifier des scripts dans un environnement idéal, tout en expliquant simplement les différents langages de développement rencontrés lors de la création d'un serveur. Si vous pensiez pouvoir faire du glisser-déposer et jouer sur un serveur RedM parfaitement développé, détrompez-vous. Même si vous achetez des scripts, vous devrez toujours y mettre la main à moins d'avoir un développeur à disposition (un jeune développeur Lua freelance vous coûtera environ 50 euros de l'heure). Donc, envisagez de suivre des cours !
 
 <b><u>Languages de dévelopement</u></b>
+
+<div align="center">
+    <img src="https://avatars.githubusercontent.com/u/92413636?s=200&v=4" alt="Logo" width="70" height="70">
+    <img src="https://avatars.githubusercontent.com/u/115509535?s=200&v=4" alt="Logo" width="70" height="70">
+    <img src="https://bcc-scripts.com/logo_full.png" alt="Logo" width="70" height="70">
+    <img src="https://avatars.githubusercontent.com/u/64416274?s=200&v=4" alt="Logo" width="70" height="70">
+    <img src="https://avatars.githubusercontent.com/u/58793477?s=200&v=4" alt="Logo" width="70" height="70">
+</div>
 
 * [Lua](https://www.lua.org/) : C'est le langage utilisé partout dans tous les frameworks. Il se rapproche très étroitement de JavaScript tout en étant beaucoup moins complexe que le C#.
 * [C#](https://learn.microsoft.com/fr-fr/dotnet/csharp/) : Vous retrouverez du C# dans les anciens scripts des frameworks généralement obsolètes.
