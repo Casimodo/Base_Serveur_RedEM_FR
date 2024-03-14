@@ -73,7 +73,7 @@
 
 <div align="center">
   <a href="https://github.com/Happy591/Base_Serveur_RedEM_FR">
-    <img src="images/giphy.png" alt="Logo" width="80" height="140">
+    <img src="images/giphy.gif" alt="Logo" width="80" height="140">
   </a>
 </div>
 
