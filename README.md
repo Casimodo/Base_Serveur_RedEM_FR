@@ -1,27 +1,35 @@
+[forks-shield]: https://img.shields.io/github/forks/Happy591/Serveur_RedEM.svg?style=for-the-badge
+[forks-url]: https://github.com/Happy591/Serveur_RedEM/network/members
+[stars-shield]: https://img.shields.io/github/stars/Happy591/Serveur_RedEM.svg?style=for-the-badge
+[stars-url]: https://github.com/Happy591/Serveur_RedEM/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Happy591/Serveur_RedEM.svg?style=for-the-badge
+[issues-url]: https://github.com/Happy591/Serveur_RedEM/issues
+
 <a name="readme-top"></a>
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
+<div align="center">
+
+[![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url]
+
+</div>
 
 <br />
 <div align="center">
   <a href="https://github.com/Happy591/Base_Serveur_RedEM_FR">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="80" height="140">
   </a>
 
-  <h3 align="center">Base Serveur RedEM FR</h3>
+  <h3 align="center">Base de Serveur RedM FR</h3>
 
   <p align="center">
-    Base de serveur qui utilise le Framework RedEM.
+    Ressource non officielle expliquant les bases pour créer un serveur RedM, et comportant une base de serveur utilisant le framework RedEM.
     <br />
-    <a href="https://sinatra.gitbook.io/redemrp/installation"><strong>Voir la docs</strong></a>
+    <a href="https://sinatra.gitbook.io/redemrp/installation"><strong>-> Voir la documatation officielle</strong></a>
     <br />
     <br />
-    <a href="https://x">Tebex</a>
+    <a href="https://redm-script-fr.tebex.io/">Mon Tebex</a>
     ·
-    <a href="https://discord.gg/FKH4uwb">Discord</a>
+    <a href="https://discord.gg/gmJeAGNQ">Mon Discord</a>
     ·
     <a href="https://github.com/Happy591/Base_Serveur_RedEM_FR/issues">Signaler un Bug</a>
   </p>
@@ -31,127 +39,145 @@
   <summary>Sommaire</summary>
   <ol>
     <li>
-      <a href="#a-propros-de-la-base-">A propros de la base</a>
+      <a href="#a-propros-de-la-base-">Introduction - Framework</a>
+    </li>
+    <li>
+      <a href="#a-propros-de-la-base-">La Base - Le Développement</a>
       <ul>
-        <li><a href="#languages-et-environnement-de-d%C3%A9velopement-utilis%C3%A9-">Languages et Environnement de dévelopement utilisé</a></li>
+        <li><a href="#languages-et-environnement-de-d%C3%A9velopement-utilis%C3%A9-">Languages de dévelopement</a></li>
+        <li><a href="#languages-et-environnement-de-d%C3%A9velopement-utilis%C3%A9-">Environnement de dévelopement</a></li>
       </ul>
     </li>
     <li>
-      <a href="#installation-">Installation</a>
+      <a href="#installation-">Installation du Framework</a>
       <ul>
-        <li><a href="#pr%C3%A9-requis-">Pré-requis</a></li>
-        <li><a href="#t%C3%A9l%C3%A9chargement-">Téléchargement</a></li>
-        <li><a href="#extension-de-vs-code-">Extension de VS Code</a></li>
-        <li><a href="#cr%C3%A9er-son-projet-git-">Créer son projet Git</a></li>
-        <li><a href="#par-feu--port-">Par-feu & Port</a></li>
-        <li><a href="#key-">Key</a></li>
-        <li><a href="#modification-de-servercfg-">Modification de server.cfg</a></li>
-        <li><a href="#base-de-donn%C3%A9e-">Base de Donnée</a></li>
-        <li><a href="#ex%C3%A9cutable-">Exécutable</a></li>
+        <li><a href="#pr%C3%A9-requis-">Les Pré-requis</a></li>
+        <li><a href="#t%C3%A9l%C3%A9chargement-">Créer son projet Git</a></li>
+        <li><a href="#extension-de-vs-code-">Par-feu & Port</a></li>
+        <li><a href="#cr%C3%A9er-son-projet-git-">KEY</a></li>
+        <li><a href="#par-feu--port-">Modification de server.cfg</a></li>
+        <li><a href="#key-">Base de donnée</a></li>
+        <li><a href="#modification-de-servercfg-">Exécutable</a></li>
+        <li><a href="#base-de-donn%C3%A9e-">Tutoriel </a></li>
       </ul>
     </li>
-    <li><a href="#tutoriel-video-">Tutoriel Vidéo</a></li>
+    <li><a href="#contribution-">Maintenir à Jour son Serveur</a></li>
+    <li><a href="#contribution-">Astuces</a></li>
     <li><a href="#contribution-">Contribution</a></li>
     <li><a href="#license-">License</a></li>
     <li><a href="#support-">Support</a></li>
   </ol>
 </details>
 
-## A propros de la Base :
-[![Product Name Screen Shot][product-screenshot]](https://github.com/orgs/RedEM-RP/repositories)
+## Introduction - Framework
 
-Cette base n'est pas une ressource officielle. Elle devra être également être mis à jour par vos soins lors de nouvelles mise à jour du Framework RedEM. Vous devez également apporter certaines modifications aux fichiers indiquer pour pouvoir lancer votre serveur.
+<div align="center">
+  <a href="https://github.com/Happy591/Base_Serveur_RedEM_FR">
+    <img src="images/giphy.png" alt="Logo" width="80" height="140">
+  </a>
+</div>
 
-<p align="right">(<a href="#readme-top">Haut de page</a>)</p>
+Bienvenue sur cette documentation Git qui vous aidera à créer plus facilement la base de votre serveur RedM !
 
-### Languages et Environnement de dévelopement utilisé :
+Pour commencer, j'espère que vous êtes armé(e) de patience et de détermination, car, comme vous le découvrirez, le développement d'un serveur n'est ni facile ni rapide... Plusieurs frameworks sur RedM vous proposent des bases pour démarrer votre serveur. Vous y trouverez :
 
-Nous utilisons nos propres machine pour déveloper avec Visual Studio Code, ainsi qu'une machine virtuelle sous windows 11 qui héberge la base de données avec le serveur.
+* <b>[VORP Framework](https://discord.gg/DHGVAbCj7N) :</b> VORP est actuellement le framework le plus utilisé, et à juste titre. La base est maintenue à jour très régulièrement et bénéficie d'une grande communauté qui offre un support réactif. Je recommande ce framework aux développeurs débutants, mais aussi à ceux qui souhaitent ouvrir rapidement un serveur. Cependant, le fait qu'il y ait des mises à jour constantes peut être gênant pour ceux qui veulent développer leurs propres scripts, les rendant rapidement obsolètes...
 
-* [Lua](https://www.lua.org/)
-* [Javascript](https://www.javascript.com/)
-* [Node](https://nodejs.org/en/)
-* [Vespura](https://vespura.com/doc/natives/)
-* [Heidisql](https://www.heidisql.com/)
+* <b>[RedEM:2023 & RedEM Old Framework](https://discord.gg/nbmTmZR) :</b> RedEM est le deuxième framework le plus utilisé. Il comporte une grande communauté et des mises à jour rares, ce qui rend parfait le développement de vos scripts maison. Attention cependant, même si RedEM permet une plus grande liberté du côté du développement, ce n'est pas pour les développeurs débutants qui manquent de patience, ou si vous voulez ouvrir un serveur rapidement car il vous faudra mettre les mains dans le cambouis.
 
-<p align="right">(<a href="#readme-top">Haut de page</a>)</p>
+* <b>[RSG Framework](https://discord.gg/eW3ADkf4Af) :</b> RSG est un jeune framework assez populaire en ce moment, notamment parce que son style est très proche de GTA, ce qui le rend parfait pour les développeurs qui passent d'une plateforme à une autre pour le Roleplay.
 
-## Installation :
+* <b>[QBCore Framework](https://discord.gg/qbcore) :</b>  QBCore descend directement du même framework utilisé sur GTA. C'est l'un des plus anciens frameworks sur RedM mais moins populaire désormais.
 
-La procédure qui permet de déveloper son propre serveur peut-être compliqué au premier abord, mais si vous suivez à la lettre les indications qui seront énoncer ci-dessous, vous obtiendrez en un rien de temps la base qui vous permettra de commencer.
+* <b>[RPX Framework](https://discord.gg/mMNJsDEFp5) :</b> Directement lié au framework RedEM, RPX est un très jeune framework encore en cours de développement qui se veut plus proche du style de GTA.
 
-<p align="right">(<a href="#readme-top">Haut de page</a>)</p>
+* <b>[GUM Framework](https://discord.gg/zR9TxRjUfr) :</b> GUM est un framework fait maison par la communauté de développeurs GUM, qu'on retrouve rarement sur des serveurs et qui n'est plus maintenu à jour.
 
-### Pré-requis :
+* <b>[BCC Framework](https://discord.gg/bNDpwruqwX) :</b> Enfin, le jeune framework BCC ou Bryce Canyon County est directement lié au framework VORP, puisque ses créateurs ont été de gros contributeurs de VORP avant d'être bannis. Pour le moment, tous leurs scripts sont compatibles avec VORP.
 
-Il est `INDISPENSABLE` d'avoir les éléments suivant avant toute chose, sans quoi votre procédure d'installation sera vouée à l'échec.
-* Avoir <a href="https://www.rockstargames.com/fr/games/reddeadredemption2">Red Dead Redmemption 2 </a>ou <a href="https://www.rockstargames.com/fr/reddeadonline">Red Dead Online</a>
-* Être connecté sur <a href="https://store.steampowered.com/?l=french">Steam</a>
-* Être connecté sur le <a href="https://socialclub.rockstargames.com/rockstar-games-launcher">Rockstar Games Launcher</a>
-* Créer un compte sur <a href="https://github.com/">GitHub</a>
+Il ne vous reste plus qu'à faire le choix du framework que vous souhaitez utiliser en fonction de votre temps et de vos compétences en développement.
 
 <p align="right">(<a href="#readme-top">Haut de page</a>)</p>
 
-### Téléchargement :
+## La Base - Le Développement
 
-Les téléchargements ci-dessous ne sont pas tous obligatoires, mais vous aideront grandement pour déveloper votre projet.
-* <a href="https://code.visualstudio.com/Download">Visual Code Studio</a> ou tout autre éditeur de code
-* <a href="https://desktop.github.com/">GitHub</a> qui vous facilitera la vie lors des commits
-* <a href="https://www.apachefriends.org/">XAMPP</a> pour ne pas à installer vous même apache et sql sur votre pc (pas besoin si vous n'héberger pas le serveur)
-* <a href="https://www.heidisql.com/download.php">HEIDI SQL</a> ou tout autre éditeur de sql, pour gérer votre base de donnée mysql (pas besoin si vous n'héberger pas le serveur)
+Cette partie est consacrée aux bases pour commencer ou modifier des scripts dans un environnement idéal, tout en expliquant simplement les différents langages de développement rencontrés lors de la création d'un serveur. Si vous pensiez pouvoir faire du glisser-déposer et jouer sur un serveur RedM parfaitement développé, détrompez-vous. Même si vous achetez des scripts, vous devrez toujours y mettre la main à moins d'avoir un développeur à disposition (un jeune développeur Lua freelance vous coûtera environ 50 euros de l'heure). Donc, envisagez de suivre des cours !
+
+<b><u>Languages de dévelopement</u></b>
+
+* [Lua](https://www.lua.org/) : C'est le langage utilisé partout dans tous les frameworks. Il se rapproche très étroitement de JavaScript tout en étant beaucoup moins complexe que le C#.
+* [C#](https://learn.microsoft.com/fr-fr/dotnet/csharp/) : Vous retrouverez du C# dans les anciens scripts des frameworks généralement obsolètes.
+* [Javascript](https://www.javascript.com/) : C'est un langage utilisé pour lier les interactions en jeu sur des interfaces à votre script.
+* [HTML](https://developer.mozilla.org/fr/docs/Web/HTML) : Permet de structurer une interface.
+* [CSS](https://developer.mozilla.org/fr/docs/Web/CSS) : Permet de modifier et de définir le style d'une interface.
+* [SQL](https://developer.mozilla.org/fr/docs/Web/CSS) : Permet de sauvegarder des informations dans une base de données.
+
+<b><u>Environnement de dévelopement</u></b>
+
+L'environnement de développement proposé n'est pas obligatoire, mais il vous permettra de commencer votre serveur dans de bonnes conditions.
+
+Dans un premier temps, il vous faut un éditeur de code, car ouvrir le code dans un simple fichier texte risque de vous fatiguer rapidement. Je vous propose donc de télécharger [Visual Code Studio](https://code.visualstudio.com/Download) qui est gratuit et largement suffisant pour votre futur développement. L'avantage avec celui-ci est que vous pouvez ajouter des extensions également gratuites qui vous aideront encore davantage dans votre code. Par exemple, de mon côté, j'utilise :
+
+* [Lua](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) : Permet de générer les erreurs de code du côté LUA.
+* [Redm Natives](https://marketplace.visualstudio.com/items?itemName=UnderworldServers.redm-vscode) : Propose des natives de RedM pour vous.
+* [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css) : Vous aide du côté HTML et CSS.
+* [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) : Ajoute une nouvelle touche de couleur à votre code, le rendant encore plus lisible
+* [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek) : Ajoute une nouvelle touche de couleur à votre style, le rendant encore plus lisible.
+* [Tabnine AI](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode) : Vous aide à compléter du code en déduisant ce que vous allez écrire.
+
+Il faudra obligatoirement installer [Node](https://nodejs.org/en/) sur votre machine pour pouvoir créer des interfaces dans vos scripts.
+
+Ensuite, il vous faut bien entendu un compte GitHub (si ce n'est pas déjà fait). En effet, il ne faut absolument pas que vous développiez vos ressources uniquement en local, car une simple erreur de clic peut rapidement survenir. Vous allez donc créer un dossier privé dans lequel vous viendrez committer vos modifications. Pour vous éviter d'avoir à utiliser des lignes de commandes dans Visual Studio Code, je vous propose de télécharger la version bureau de [GitHub](https://desktop.github.com/)
+
+Enfin, il va falloir gérer une base de données. C'est pourquoi il vous faudra un éditeur SQL tel que [HEIDI SQL](https://www.heidisql.com/download.php). Cependant, pour que ce logiciel fonctionne, vous devrez installer Apache et SQL sur votre machine qui hébergera votre futur serveur RedM, ou installer [XAMPP](https://www.apachefriends.org/) pour ne pas avoir à installer vous-même Apache et SQL sur votre PC (généralement pas nécessaire si vous avez un serveur virtuel).
 
 <p align="right">(<a href="#readme-top">Haut de page</a>)</p>
 
-### Extension de VS Code :
+## Installation du Framework
 
-Encore une fois, il n'est pas obligatoire d'installer ses extensions basiques, mais elles vous permettront de coder plus facilement.
-* <a href="https://marketplace.visualstudio.com/items?itemName=sumneko.lua">Lua</a>
-* <a href="https://marketplace.visualstudio.com/items?itemName=UnderworldServers.redm-vscode">Redm Natives</a>
-* <a href="https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles">Markdown Preview</a>
-* <a href="https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css">HTML CSS Support</a>
-* <a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode">Prettier</a>
-* <a href="https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek">CSS Peek</a>
-* <a href="https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode">Tabnine AI</a>
+Si vous estimez que le framework parfait pour vous est RedEM, alors c'est parfait, vous pouvez continuer à lire cette partie. Sinon, je vous invite à suivre la procédure d'installation des autres frameworks. N'oubliez pas également que cette base n'est pas une ressource officielle. Elle devra également être mise à jour par vos soins lors de nouvelles mises à jour du framework RedEM. Vous devez également apporter certaines modifications aux fichiers indiqués pour pouvoir lancer votre serveur.
 
-<p align="right">(<a href="#readme-top">Haut de page</a>)</p>
+<b><u>Les Pré-requis</u></b>
 
-### Créer son projet Git :
+Il est <b>INDISPENSABLE</b> d'avoir les éléments suivants avant de commencer l'installation d'un framework, sans quoi votre procédure d'installation sera vouée à l'échec.
 
-Dans un premier temps, dans un dossier localisé de préférence à la racine de votre disque, que vous pouvez nommer comme vous le souhaitez, importer le fork du projet Git principal en faisant la commande associée dans une console de commande.
+* Avoir [Red Dead Redmemption 2](https://www.rockstargames.com/fr/games/reddeadredemption2) ou [Red Dead Online](https://www.rockstargames.com/fr/reddeadonline)
+* Être connecté sur [Steam](https://store.steampowered.com/?l=french)
+* Être connecté sur le [Rockstar Games Launcher](https://socialclub.rockstargames.com/rockstar-games-launcher)
+
+<b><u>Créer son projet Git</u></b>
+
+Dans un premier temps, dans un dossier de préférence situé à la racine de votre disque, que vous pouvez nommer comme bon vous semble, importez le fork du projet Git principal en exécutant la commande associée dans une console de commande :
 
 ```sh
 git clone https://github.com/Happy591/Base_Serveur_RedEM_FR.git
 ```
 
-<p align="right">(<a href="#readme-top">Haut de page</a>)</p>
+<b><u>Par-feu & Port</u></b>
 
-### Par-feu & Port :
+Voici le principal problème auquel vous pourriez être confronté : comment ouvrir les ports pour FXServer ? Normalement, il suffit de suivre les étapes suivantes :
 
-Voici le majeur problème que vous rencontrerez `Comment ouvrir ses port pour FXServer ?`. Normalement il suffit de suivre les étapes qui vont suivre.
-* Ouvrir Pare-feu Windows Defender avec fonctions avancées de sécurité
-* Ouvrir Règles de trafic entrant
-* Créer une `Nouvelle règle...` avec comme options : `Port`, `TCP` avec `Port locaux spécifiques : 30120`, `Autoriser la connexion`, `Domaine Privé et Public`, `Nom : 30120 TCP`
-* Répéter l'étape 3, mais sélectionnez `UDP` dans le protocole de port, puis `Nom : 30120 UDP`
-* Faire un `Ipconfig` ou vous allez copier coller l'`adresse passerelle` dans votre navigateur. En fonction de votre opérateur internet, allez dans `NAT` et ouvrez le port `30120` (IP statique de la machine requise).
-* Refaire toutes ses étapes pour ouvrir le port 40120 (pour pouvoir accéder à TxAdmin d'un autre poste)
+* Ouvrez le Pare-feu Windows Defender avec les fonctions avancées de sécurité.
+* Accédez aux règles de trafic entrant.
+* Créez une nouvelle règle avec les options suivantes : Port, TCP avec des ports locaux spécifiques : 30120, Autoriser la connexion, Domaine Privé et Public, Nom : 30120 TCP.
+* Répétez l'étape 3, mais sélectionnez UDP comme protocole de port, puis Nom : 30120 UDP.
+* Effectuez un Ipconfig où vous copierez l'adresse passerelle dans votre navigateur. En fonction de votre fournisseur d'accès internet, accédez à NAT et ouvrez le port 30120 (une adresse IP statique de la machine est requise).
+* Répétez toutes ces étapes pour ouvrir le port 40120 (pour pouvoir accéder à TxAdmin depuis un autre poste).
 
-Le problème ici, c'est qu'il est impossible pour chez certains opérateurs de changer ses paramètres NAT (coucou à SFR :clown_face:) ou alors vous devrez changer votre abonnement internet pour pouvoir le faire, contre des billets en plus (coucou à Orange :clown_face:). Seul solution dans ce cas, louer une machine virtuelle pour héberger votre serveur.
+Le problème ici, c'est qu'il est impossible pour certains opérateurs de changer les paramètres NAT (coucou à SFR :clown_face) ou alors vous devrez changer votre abonnement Internet pour pouvoir le faire, moyennant des frais supplémentaires (coucou à Orange :clown_face:). La seule solution dans ce cas est de louer une machine virtuelle pour héberger votre serveur.
 
-<p align="right">(<a href="#readme-top">Haut de page</a>)</p>
+<b><u>KEY</u></b>
 
-### KEY :
+Chaque serveur a deux clés uniques que vous devrez générer.
 
-Chaque serveur à deux clés unique que vous allez devoir générer.
-* Sur Steam elle se nomme <a href="https://steamcommunity.com/dev/apikey">API KEY</a>
-* Sur RedM elle se nomme <a href="https://keymaster.fivem.net/server/">KEYMASTER</a>
+* Sur Steam, elle se nomme [API KEY](https://steamcommunity.com/dev/apikey)
+* Sur RedM, elle se nomme [KEYMASTER](https://keymaster.fivem.net/server/)
 
-Il va falloir créer votre compte <a href="https://forum.cfx.re/">CFX</a> si ce n'est pas déjà fait pour obtenir la KEYMASTER. Rappelez vous bien de vos identifiant, ils vous seront utile dans le futur. Un fois fait, allez sur le lien ci-dessus, vous faites `New Server` et vous remplissez le formulaire en fonction de vos paramètres. Une fois terminé, copier le code de votre clé, nous nous en resservirons.
+Il va falloir créer votre compte sur le forum [CFX](https://forum.cfx.re/) si ce n'est pas déjà fait pour obtenir la KEYMASTER. Rappelez-vous bien de vos identifiants, ils vous seront utiles dans le futur. Une fois fait, rendez-vous sur le lien ci-dessus, cliquez sur "New Server" et remplissez le formulaire en fonction de vos paramètres. Une fois terminé, copiez le code de votre clé, nous nous en resservirons.
 
-<p align="right">(<a href="#readme-top">Haut de page</a>)</p>
+<b><u>Modification de server.cfg</u></b>
 
-### Modification de server.cfg :
-
-Dans le fichier `server.cfg` localisé dans le dossier `Serveur_RedEM/server-data/server.cfg` vous allez devoir modificher les clés uniques par celle que vous avez générez un peu plus tôt, mais également modifier les adresses IP par celle de votre machine.
+Dans le fichier server.cfg situé dans le dossier Serveur_RedEM/server-data/server.cfg, vous devrez modifier les clés uniques par celles que vous avez générées un peu plus tôt, mais également remplacer les adresses IP par celle de votre machine.
 * Ligne 19 
 ```js
 endpoint_add_tcp "TON.IP:30120"
@@ -169,33 +195,65 @@ set steam_webApiKey "APIKEY"
 sv_licenseKey "KEYMASTER"
 ```
 
-**N'oubliez pas de sauvegarder les modifications.**
+**N'oubliez pas de sauvegarder les modifications !**
 
-<p align="right">(<a href="#readme-top">Haut de page</a>)</p>
+<b><u>Base de donnée</u></b>
 
-### Base de donnée :
+MariaDB est le système de gestion de base de données utilisé. Pour assurer le bon fonctionnement du serveur, il est donc nécessaire de démarrer la base de données associée.
 
-MariaDB est le langage utilisé au niveau de la base de donnée. Pour pouvoir faire en sort que le serveur fonction il faut donc lancer la base de donnée associée.
-* Lancer `XAMPP` et `start` Apache et MySQL
-* Lancer `HEIDI SQL` créez votre session avec le nom que vous souhaitez
-* Lancez la session, créer une nouvelle base de donnée que vous nommerez `redemrp`
-* Une fois à l'interieur, celle-ci est vide, faite `File`, `Run SQL file...` et exécuter le fichier `RedEM_PreBuild.sql` localisé dans `Serveur_RedEM/server-sql/RedEM_PreBuild.sql`
+* Lancez XAMPP et démarrez Apache et MySQL.
+* Lancez HEIDI SQL et créez votre session avec le nom que vous souhaitez.
+* Lancez la session, créez une nouvelle base de données que vous nommerez redemrp.
+* Une fois à l'intérieur, celle-ci est vide, allez dans "File" puis "Run SQL file..." et exécutez le fichier RedEM_PreBuild.sql situé dans Serveur_RedEM/server-sql/RedEM_PreBuild.sql.
 
-**Ignorez les warnings s'il y en a.**
+**Ignorez les avertissements s'il y en a !**
 
-<p align="right">(<a href="#readme-top">Haut de page</a>)</p>
+<b><u>Exécutable</u></b>
 
-### Exécutable : 
+Une fois toutes ces opérations terminées, lancez FXServer.exe situé dans Serveur_RedEM/server/FXServer.exe. Une console s'affichera à l'écran et vous serez redirigé vers une nouvelle page web pour installer TX Admin. Assurez-vous de choisir le chemin pour votre fichier ici : Serveur_RedEM/server-data/server.cfg, pas besoin d'en créer un nouveau. Après un court délai d'attente, une fois que le cache est installé et après avoir relancé votre exécutable, vous pourrez enfin vous connecter au serveur !
 
-Une fois toutes ses opérations terminée, lancer `FXServer.exe` localisé dans `Serveur_RedEM/server/FXServer.exe`. Une console s'affiche à l'écran et elle vous amènera sur une nouvelle page web pour installer TX Admin. Choisissez bien le chemin pour votre fichier ici `Serveur_RedEM/server-data/server.cfg` pas besoin d'en créer un nouveau. Après un petit moment d'attente, lorsque le cache est installé, et après avoir relancé votre éxécutable, vous pouvez enfin vous connecter au serveur !
+Vous devez être connecté à RedM ainsi qu'à votre licence avec le même compte pour bénéficier des permissions administratives.
 
-Vous devez être connecter à Redm ainsi qu'à votre licence avec le même compte pour avoir les permissions admin.
-
-## Tutoriel Vidéo :
+<b><u>Tutoriel Vidéo</u></b>
 
 _Dans le futur..._
 
 <p align="right">(<a href="#readme-top">Haut de page</a>)</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Maintenir à Jour son Serveur
+
+Il va de soi que pour maintenir son framework à jour, il est essentiel d'être sur le Discord de celui-ci. Cependant, ce n'est pas tout : il faut également se tenir informé des mises à jour de TXAdmin et de CFX. Régulièrement, il faudra aussi vous rendre sur cette page et télécharger le dernier artifact, que vous dézipperez ensuite dans le dossier du server.
+
+https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/
+
+
+## Astuces
+
+Forum cfx
+discord chercher
+
+
+
+[![Product Name Screen Shot][product-screenshot]](https://github.com/orgs/RedEM-RP/repositories)
+
 
 ## Contribution :
 
@@ -225,12 +283,5 @@ Pour plus assistance sur de potentiels problèmes avec TxAdmin consultez leur [d
 
 <p align="right">(<a href="#readme-top">Haut de page</a>)</p>
 
-[contributors-shield]: https://img.shields.io/github/contributors/Happy591/Serveur_RedEM.svg?style=for-the-badge
-[contributors-url]: https://github.com/Happy591/Serveur_RedEM/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Happy591/Serveur_RedEM.svg?style=for-the-badge
-[forks-url]: https://github.com/Happy591/Serveur_RedEM/network/members
-[stars-shield]: https://img.shields.io/github/stars/Happy591/Serveur_RedEM.svg?style=for-the-badge
-[stars-url]: https://github.com/Happy591/Serveur_RedEM/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Happy591/Serveur_RedEM.svg?style=for-the-badge
-[issues-url]: https://github.com/Happy591/Serveur_RedEM/issues
-[product-screenshot]: images/giphy.gif
+
+
