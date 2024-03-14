@@ -73,7 +73,7 @@
 
 <div align="center">
   <a href="https://github.com/Happy591/Base_Serveur_RedEM_FR">
-    <img src="images/giphy.gif" alt="Logo" width="700" height="350">
+    <img src="https://w0.peakpx.com/wallpaper/20/49/HD-wallpaper-red-dead-redemption-2-2021-red-dead-redemption-2-games-2021-games.jpg" alt="Logo" width="1000" height="300">
   </a>
 </div>
 
