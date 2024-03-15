@@ -77,11 +77,10 @@
         <li>Tutoriel Vidéo</li>
       </ul>
     </li>
-    <li><a href="#contribution-">Maintenir à Jour son Serveur</a></li>
-    <li><a href="#contribution-">Astuces</a></li>
-    <li><a href="#contribution-">Contribution</a></li>
-    <li><a href="#license-">License</a></li>
-    <li><a href="#support-">Support</a></li>
+    <li><a href="#maintenir-%C3%A0-jour-son-serveur">Maintenir à Jour son Serveur</a></li>
+    <li><a href="#astuces">Astuces</a></li>
+    <li><a href="#contribution">Contribution</a></li>
+    <li><a href="#support">Support</a></li>
   </ol>
 </details>
 
@@ -338,12 +337,6 @@ N'oubliez pas de mettre une étoile au projet ! Merci !
 
 <p align="right">(<a href="#readme-top">Haut de page</a>)</p>
 
-## License
-
-Distribué sous la GNU License. Voir `LICENSE.txt` pour plus d'informations.
-
-<p align="right">(<a href="#readme-top">Haut de page</a>)</p>
-
 ## Support
 
 * Pour obtenir plus d'assistance sur d'éventuels problèmes avec le framework RedEM, consultez leur serveur [discord](https://discord.gg/FKH4uwb)<br />
@@ -351,6 +344,3 @@ Distribué sous la GNU License. Voir `LICENSE.txt` pour plus d'informations.
 * Pour obtenir plus d'assistance sur d'éventuels problèmes avec TxAdmin, consultez leur serveur [discord](https://discord.gg/yWxjt9zPWR)<br />
 
 <p align="right">(<a href="#readme-top">Haut de page</a>)</p>
-
-
-
