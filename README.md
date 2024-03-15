@@ -39,26 +39,42 @@
   <summary>Sommaire</summary>
   <ol>
     <li>
-      <a href="#a-propros-de-la-base-">Introduction - Framework</a>
-    </li>
-    <li>
-      <a href="#a-propros-de-la-base-">La Base - Le Développement</a>
+      <a href="#introduction---framework">Introduction - Framework</a>
       <ul>
-        <li><a href="#languages-et-environnement-de-d%C3%A9velopement-utilis%C3%A9-">Languages de dévelopement</a></li>
-        <li><a href="#languages-et-environnement-de-d%C3%A9velopement-utilis%C3%A9-">Environnement de dévelopement</a></li>
+        <li>VORP</li>
+        <li>REDEM:2023 & REDEM OLD</li>
+        <li>RSG</li>
+        <li>QBCore</li>
+        <li>RPX</li>
+        <li>GUM</li>
+        <li>BCC</li>
       </ul>
     </li>
     <li>
-      <a href="#installation-">Installation du Framework</a>
+      <a href="#la-base---le-d%C3%A9veloppement">La Base - Le Développement</a>
       <ul>
-        <li><a href="#pr%C3%A9-requis-">Les Pré-requis</a></li>
-        <li><a href="#t%C3%A9l%C3%A9chargement-">Créer son projet Git</a></li>
-        <li><a href="#extension-de-vs-code-">Par-feu & Port</a></li>
-        <li><a href="#cr%C3%A9er-son-projet-git-">KEY</a></li>
-        <li><a href="#par-feu--port-">Modification de server.cfg</a></li>
-        <li><a href="#key-">Base de donnée</a></li>
-        <li><a href="#modification-de-servercfg-">Exécutable</a></li>
-        <li><a href="#base-de-donn%C3%A9e-">Tutoriel </a></li>
+        <li>Languages de dévelopement</li>
+        <li>Environnement de dévelopement</li>
+      </ul>
+    </li>
+    <li>
+      <a href="#installation-de-redm">Installation de RedM</a>
+      <ul>
+        <li>Tutoriel</li>
+        <li>Tutoriel Vidéo</li>
+      </ul>
+    </li>
+    <li>
+      <a href="#installation-du-framework">Installation du Framework</a>
+      <ul>
+        <li>Les Pré-requis</li>
+        <li>Créer son projet Git</li>
+        <li>Par-feu & Port</li>
+        <li>KEY</li>
+        <li>Modification de server.cfg</li>
+        <li>Base de donnée</li>
+        <li>Exécutable</li>
+        <li>Tutoriel Vidéo</li>
       </ul>
     </li>
     <li><a href="#contribution-">Maintenir à Jour son Serveur</a></li>
@@ -77,6 +93,8 @@
     <img src="https://bcc-scripts.com/logo_full.png" alt="Logo" width="70" height="70">
     <img src="https://avatars.githubusercontent.com/u/64416274?s=200&v=4" alt="Logo" width="70" height="70">
     <img src="https://avatars.githubusercontent.com/u/58793477?s=200&v=4" alt="Logo" width="70" height="70">
+    <img src="https://avatars.githubusercontent.com/u/114295413?s=200&v=4" alt="Logo" width="70" height="70">
+    <img src="https://avatars.githubusercontent.com/u/130105567?s=200&v=4" alt="Logo" width="70" height="70">
 </div>
 
 Bienvenue sur cette documentation Git qui vous aidera à créer plus facilement la base de votre serveur RedM !
@@ -104,7 +122,7 @@ Il ne vous reste plus qu'à faire le choix du framework que vous souhaitez utili
 ## La Base - Le Développement
 
 <div align="center">
-    <img src="https://woz-u.com/wp-content/uploads/2022/06/Evolution-of-Coding-scaled.jpg" alt="Logo" width="1000" height="500">
+    <img src="https://i.gifer.com/origin/4d/4d3e7b98dca300caa3365ea6870c8e3d.gif" alt="Logo" width="1000" height="350">
 </div>
 
 Cette partie est consacrée aux bases pour commencer ou modifier des scripts dans un environnement idéal, tout en expliquant simplement les différents langages de développement rencontrés lors de la création d'un serveur. Si vous pensiez pouvoir faire du glisser-déposer et jouer sur un serveur RedM parfaitement développé, détrompez-vous. Même si vous achetez des scripts, vous devrez toujours y mettre la main à moins d'avoir un développeur à disposition (un jeune développeur Lua freelance vous coûtera environ 50 euros de l'heure). Donc, envisagez de suivre des cours !
@@ -112,19 +130,20 @@ Cette partie est consacrée aux bases pour commencer ou modifier des scripts dan
 <b><u>Languages de dévelopement</u></b>
 
 <div align="center">
-    <img src="https://avatars.githubusercontent.com/u/92413636?s=200&v=4" alt="Logo" width="70" height="70">
-    <img src="https://avatars.githubusercontent.com/u/115509535?s=200&v=4" alt="Logo" width="70" height="70">
-    <img src="https://bcc-scripts.com/logo_full.png" alt="Logo" width="70" height="70">
-    <img src="https://avatars.githubusercontent.com/u/64416274?s=200&v=4" alt="Logo" width="70" height="70">
-    <img src="https://avatars.githubusercontent.com/u/58793477?s=200&v=4" alt="Logo" width="70" height="70">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" alt="Logo" width="70" height="70">
+    <img src="https://i0.wp.com/theicom.org/wp-content/uploads/2016/03/js-logo.png?fit=500%2C500&ssl=1&w=640" alt="Logo" width="70" height="70">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" alt="Logo" width="50" height="70">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Lua-Logo.svg/2048px-Lua-Logo.svg.png" alt="Logo" width="70" height="70">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Logo_C_sharp.svg/1200px-Logo_C_sharp.svg.png" alt="Logo" width="60" height="70">
+    <img src="https://modern-ti.com/wp-content/uploads/2024/01/sql-database-generic.png" alt="Logo" width="70" height="70">
 </div>
 
-* [Lua](https://www.lua.org/) : C'est le langage utilisé partout dans tous les frameworks. Il se rapproche très étroitement de JavaScript tout en étant beaucoup moins complexe que le C#.
-* [C#](https://learn.microsoft.com/fr-fr/dotnet/csharp/) : Vous retrouverez du C# dans les anciens scripts des frameworks généralement obsolètes.
-* [Javascript](https://www.javascript.com/) : C'est un langage utilisé pour lier les interactions en jeu sur des interfaces à votre script.
-* [HTML](https://developer.mozilla.org/fr/docs/Web/HTML) : Permet de structurer une interface.
-* [CSS](https://developer.mozilla.org/fr/docs/Web/CSS) : Permet de modifier et de définir le style d'une interface.
-* [SQL](https://developer.mozilla.org/fr/docs/Web/CSS) : Permet de sauvegarder des informations dans une base de données.
+* <b>[Lua](https://www.lua.org/)</b> : C'est le langage utilisé partout dans tous les frameworks. Il se rapproche très étroitement de JavaScript tout en étant beaucoup moins complexe que le C#.
+* <b>[C#](https://learn.microsoft.com/fr-fr/dotnet/csharp/)</b> : Vous retrouverez du C# dans les anciens scripts des frameworks généralement obsolètes.
+* <b>[Javascript](https://www.javascript.com/)</b> : C'est un langage utilisé pour lier les interactions en jeu sur des interfaces à votre script.
+* <b>[HTML](https://developer.mozilla.org/fr/docs/Web/HTML)</b> : Permet de structurer une interface.
+* <b>[CSS](https://developer.mozilla.org/fr/docs/Web/CSS)</b> : Permet de modifier et de définir le style d'une interface.
+* <b>[SQL](https://developer.mozilla.org/fr/docs/Web/CSS)</b> : Permet de sauvegarder des informations dans une base de données.
 
 <b><u>Environnement de dévelopement</u></b>
 
@@ -132,12 +151,12 @@ L'environnement de développement proposé n'est pas obligatoire, mais il vous p
 
 Dans un premier temps, il vous faut un éditeur de code, car ouvrir le code dans un simple fichier texte risque de vous fatiguer rapidement. Je vous propose donc de télécharger [Visual Code Studio](https://code.visualstudio.com/Download) qui est gratuit et largement suffisant pour votre futur développement. L'avantage avec celui-ci est que vous pouvez ajouter des extensions également gratuites qui vous aideront encore davantage dans votre code. Par exemple, de mon côté, j'utilise :
 
-* [Lua](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) : Permet de générer les erreurs de code du côté LUA.
-* [Redm Natives](https://marketplace.visualstudio.com/items?itemName=UnderworldServers.redm-vscode) : Propose des natives de RedM pour vous.
-* [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css) : Vous aide du côté HTML et CSS.
-* [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) : Ajoute une nouvelle touche de couleur à votre code, le rendant encore plus lisible
-* [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek) : Ajoute une nouvelle touche de couleur à votre style, le rendant encore plus lisible.
-* [Tabnine AI](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode) : Vous aide à compléter du code en déduisant ce que vous allez écrire.
+* <b>[Lua](https://marketplace.visualstudio.com/items?itemName=sumneko.lua)</b> : Permet de générer les erreurs de code du côté LUA.
+* <b>[Redm Natives](https://marketplace.visualstudio.com/items?itemName=UnderworldServers.redm-vscode)</b> : Propose des natives de RedM pour vous.
+* <b>[HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)</b> : Vous aide du côté HTML et CSS.
+* <b>[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)</b> : Ajoute une nouvelle touche de couleur à votre code, le rendant encore plus lisible
+* <b>[CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)</b> : Ajoute une nouvelle touche de couleur à votre style, le rendant encore plus lisible.
+* <b>[Tabnine AI](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)</b> : Vous aide à compléter du code en déduisant ce que vous allez écrire.
 
 Il faudra obligatoirement installer [Node](https://nodejs.org/en/) sur votre machine pour pouvoir créer des interfaces dans vos scripts.
 
@@ -147,7 +166,45 @@ Enfin, il va falloir gérer une base de données. C'est pourquoi il vous faudra 
 
 <p align="right">(<a href="#readme-top">Haut de page</a>)</p>
 
+## Installation de RedM
+
+<b><u>Tutoriel</u></b>
+
+<div align="center">
+    <img src="https://www.breakflip.com/uploads2/Slash/AAA/vignette-rdr2-rp-comment-faire.jpg" alt="Logo" width="600" height="350">
+</div>
+
+Dans un premier temps, rendez-vous sur le site internet officiel [RedM](https://redm.net/) et cliquez ensuite sur "Download Client" afin de télécharger l'exécutable.
+
+<div align="center">
+    <img src="https://wikiredm.redstartrp.fr/unknown2.png" alt="Logo" width="600" height="400">
+</div>
+
+Avant de lancer l'exécutable, pensez à démarrer votre launcher Rockstar Games. Ensuite, exécutez le fichier RedM.exe. Après une courte période, RedM vous demandera de choisir le .exe de RDR2 pour bien relier RedM à votre jeu. Vous recevrez ensuite une demande de mise à jour du cache de votre jeu, acceptez-la et le téléchargement de RedM se lancera. *
+
+<div align="center">
+    <img src="https://wikiredm.redstartrp.fr/unknown3.png" alt="Logo" width="600" height="400">
+</div>
+
+Le temps de téléchargement varie énormément en fonction des personnes et de différents paramètres tels que les performances de l'ordinateur, votre connexion internet ou RedM lui-même. Comptez donc entre 1 heure et 4 heures, voire 15 heures... 
+
+<div align="center">
+    <img src="https://wikiredm.redstartrp.fr/unknown5.png" alt="Logo" width="400" height="150">
+</div>
+
+Une fois le téléchargement terminé, vous pouvez enfin lancer RedM.
+
+<b><u>Tutoriel Vidéo</u></b>
+
+_Work in progress..._
+
+<p align="right">(<a href="#readme-top">Haut de page</a>)</p>
+
 ## Installation du Framework
+
+<div align="center">
+    <img src="https://i.ytimg.com/vi/x8SsgBpkcxI/sddefault.jpg" alt="Logo" width="440" height="340">
+</div>
 
 Si vous estimez que le framework parfait pour vous est RedEM, alors c'est parfait, vous pouvez continuer à lire cette partie. Sinon, je vous invite à suivre la procédure d'installation des autres frameworks. N'oubliez pas également que cette base n'est pas une ressource officielle. Elle devra également être mise à jour par vos soins lors de nouvelles mises à jour du framework RedEM. Vous devez également apporter certaines modifications aux fichiers indiqués pour pouvoir lancer votre serveur.
 
@@ -158,6 +215,7 @@ Il est <b>INDISPENSABLE</b> d'avoir les éléments suivants avant de commencer l
 * Avoir [Red Dead Redmemption 2](https://www.rockstargames.com/fr/games/reddeadredemption2) ou [Red Dead Online](https://www.rockstargames.com/fr/reddeadonline)
 * Être connecté sur [Steam](https://store.steampowered.com/?l=french)
 * Être connecté sur le [Rockstar Games Launcher](https://socialclub.rockstargames.com/rockstar-games-launcher)
+* Avoir installé [RedM](https://redm.net/) sur sa machine.
 
 <b><u>Créer son projet Git</u></b>
 
@@ -178,7 +236,7 @@ Voici le principal problème auquel vous pourriez être confronté : comment ouv
 * Effectuez un Ipconfig où vous copierez l'adresse passerelle dans votre navigateur. En fonction de votre fournisseur d'accès internet, accédez à NAT et ouvrez le port 30120 (une adresse IP statique de la machine est requise).
 * Répétez toutes ces étapes pour ouvrir le port 40120 (pour pouvoir accéder à TxAdmin depuis un autre poste).
 
-Le problème ici, c'est qu'il est impossible pour certains opérateurs de changer les paramètres NAT (coucou à SFR :clown_face) ou alors vous devrez changer votre abonnement Internet pour pouvoir le faire, moyennant des frais supplémentaires (coucou à Orange :clown_face:). La seule solution dans ce cas est de louer une machine virtuelle pour héberger votre serveur.
+Le problème ici, c'est qu'il est impossible pour certains opérateurs de changer les paramètres NAT (exemple : SFR) ou alors vous devrez changer votre abonnement Internet pour pouvoir le faire, moyennant des frais supplémentaires (exemple : Orange). La seule solution dans ce cas est de louer une machine virtuelle pour héberger votre serveur.
 
 <b><u>KEY</u></b>
 
@@ -230,46 +288,43 @@ Vous devez être connecté à RedM ainsi qu'à votre licence avec le même compt
 
 <b><u>Tutoriel Vidéo</u></b>
 
-_Dans le futur..._
+_Work in progress..._
 
 <p align="right">(<a href="#readme-top">Haut de page</a>)</p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Maintenir à Jour son Serveur
 
-Il va de soi que pour maintenir son framework à jour, il est essentiel d'être sur le Discord de celui-ci. Cependant, ce n'est pas tout : il faut également se tenir informé des mises à jour de TXAdmin et de CFX. Régulièrement, il faudra aussi vous rendre sur cette page et télécharger le dernier artifact, que vous dézipperez ensuite dans le dossier du server.
+Il va de soi que pour maintenir son framework à jour, il est essentiel d'être sur le discord de celui-ci ([Discord de RedEM](https://discord.gg/nbmTmZR)). Cependant, ce n'est pas tout : il faut également se tenir informé des mises à jour de TXAdmin ([Discord de TXAdmin](https://discord.gg/yWxjt9zPWR)) et de CFX ([Discord de CFX](https://discord.gg/fivem)).
 
-https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/
+Régulièrement, il faudra également vous rendre sur cette ([page](https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/)) et télécharger le dernier artifact.
 
+<div align="center">
+    <img src="https://zupimages.net/up/24/11/j6x1.png" alt="Logo" width="1000" height="350">
+</div>
+
+Ensuite, vous devrez dézipper son contenu dans le dossier server de votre base RedM. Si vous ne savez pas quand vous devez mettre à jour l'artefact de votre serveur, vous pouvez le voir lorsque vous vous connectez dessus. En effet, vous verrez à droite une notification indiquant que l'artefact est outdated, de couleur blanche, jaune ou rouge. Vous imaginez bien qu'au plus la couleur se rapproche du rouge, au plus votre serveur nécessite une mise à jour rapidement.
+
+<div align="center">
+    <img src="https://forum.cfx.re/uploads/default/original/4X/1/2/f/12f0dbf604e661838f6c0d893be03e3c37f13b06.png" alt="Logo" width="450" height="300">
+</div>
+
+<p align="right">(<a href="#readme-top">Haut de page</a>)</p>
 
 ## Astuces
 
-Forum cfx
-discord chercher
+* Dans les paramètres graphiques de votre jeu, mettez-vous en DirectX et non en VULKAN, cela vous évitera certains crashs de RedM.
+* Consultez régulièrement les forums RedM de [CFX](https://forum.cfx.re/c/redm-development/redm-releases/60) pour y trouver de nouveaux scripts.
+* Soyez sur le plus de discords de créateurs possible, certains offrent des ressources gratuites pour votre serveur.
+* Soyez sur le discord de tous les frameworks pour récupérer des ressources gratuites et recevoir de l'aide.
+* La plupart des choses que vous souhaitez créer sont disponibles gratuitement, il suffit juste de bien fouiller pour les trouver.
+* Le monde du MLO est un autre style de développement particulier, ne vous lancez pas dans le développement de scripts et dans le développement d'MLO, vous allez vite vous décourager. Alors, rendez-vous sur le discord de [Spooni](https://discord.com/invite/t2NWABD6QJ) qui propose actuellement les meilleurs mappages de RedM.
+* Il vaut mieux payer un peu plus cher un script et l'avoir en open source que lock. Ainsi, vous pourrez apprendre la logique de code des autres pour vous améliorer.
+* Méfiez-vous des créateurs, n'achetez jamais un script via PayPal et regardez dans les différents discords s'il ne figure pas dans la liste des mauvais développeurs.
+* Persévérez pour ouvrir un bon serveur, même avec beaucoup d'argent, vous prendra au moins une bonne année.
 
+<p align="right">(<a href="#readme-top">Haut de page</a>)</p>
 
-
-[![Product Name Screen Shot][product-screenshot]](https://github.com/orgs/RedEM-RP/repositories)
-
-
-## Contribution :
+## Contribution
 
 Les contributions font avancer le projet plus vite qu'une personne seule. Toutes les contributions que vous faites sont donc **grandement appréciées**. Si vous avez une suggestion qui améliorerait le projet, n'hésitez pas à créer une demande de fork.
 
@@ -283,17 +338,17 @@ N'oubliez pas de mettre une étoile au projet ! Merci !
 
 <p align="right">(<a href="#readme-top">Haut de page</a>)</p>
 
-## License :
+## License
 
 Distribué sous la GNU License. Voir `LICENSE.txt` pour plus d'informations.
 
 <p align="right">(<a href="#readme-top">Haut de page</a>)</p>
 
-## Support :
+## Support
 
-Pour plus assistance sur de potentiels problèmes avec le framework consultez leur [discord](https://discord.gg/FKH4uwb)<br />
-Pour plus assistance sur de potentiels problèmes avec CFX consultez leur [discord](https://discord.gg/fivem)<br />
-Pour plus assistance sur de potentiels problèmes avec TxAdmin consultez leur [discord](https://discord.gg/yWxjt9zPWR)<br />
+* Pour obtenir plus d'assistance sur d'éventuels problèmes avec le framework RedEM, consultez leur serveur [discord](https://discord.gg/FKH4uwb)<br />
+* Pour obtenir plus d'assistance sur d'éventuels problèmes avec CFX, consultez leur serveur [discord](https://discord.gg/fivem)<br />
+* Pour obtenir plus d'assistance sur d'éventuels problèmes avec TxAdmin, consultez leur serveur [discord](https://discord.gg/yWxjt9zPWR)<br />
 
 <p align="right">(<a href="#readme-top">Haut de page</a>)</p>
 
