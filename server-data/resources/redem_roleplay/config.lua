@@ -9,4 +9,4 @@ Config.DisableLootBoxes                     = true          -- Set to true to di
 Config.DisableAimAssist                     = true          -- Set to true to disable aim assist on controllers (unfair for RP servers)
 
 Config.StartingCash                         = 100           -- The amount of cash to start with
-Config.StartingBank                         = 0             -- The amount of bank money to start with
+Config.StartingBank                         = 10000             -- The amount of bank money to start with
